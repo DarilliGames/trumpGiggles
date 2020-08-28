@@ -5,7 +5,7 @@
 "manifest_version": 2,
 "content_scripts": [
     {
-      "matches": ["https://www.whitehouse.gov/people/donald-j-trump/"],
+      "matches": ["<all_urls>"],
       "js": ["jquery.js", "themain.js"]
     }
   ]
