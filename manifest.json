@@ -1,0 +1,12 @@
+{
+"name":"A Very Official Extension",
+"description":"Does fun things",
+"version":"1.1",
+"manifest_version": 2,
+"content_scripts": [
+    {
+      "matches": ["https://www.whitehouse.gov/people/donald-j-trump/"],
+      "js": ["jquery.js", "themain.js"]
+    }
+  ]
+}
